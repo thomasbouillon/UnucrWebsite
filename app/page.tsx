@@ -10,6 +10,9 @@ export default function Home() {
 
       <div className="space-y-2">
         <Link className="link" href="#">
+          Devenir Conducteur ou faire sa demande d&apos;agrément
+        </Link>
+        <Link className="link" href="#">
           Les stages 2024
         </Link>
         <Link className="link" href="#">
@@ -22,7 +25,7 @@ export default function Home() {
       </Link>
 
       <Link className="link" href="#">
-        Résultat des élections au conseil d’administration du 20 juin 2021
+        Résultat des élections au conseil d&apos;administration du 20 juin 2021
       </Link>
 
       <div>
@@ -71,7 +74,7 @@ export default function Home() {
         conducteur-chien opérationnelles pour la recherche du grand gibier
         blessé.
         <Image
-          src="/home_img_1.jpeg"
+          src="/home/home_img_1.jpeg"
           alt="Chien de rouge à côté d'un sanglier"
           width={510}
           height={382}

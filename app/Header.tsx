@@ -27,37 +27,44 @@ export function Header() {
             <Link href={routes().news()}>Actualités</Link>
           </li>
           <li className={linkClassName}>
-            <Link href="#">Conducteurs</Link>
+            <Link href={routes().hunters()}>Conducteurs</Link>
           </li>
           <li className={linkClassName}>
-            <Link href="#">Cynophilie</Link>
+            <Link href={routes().cynophilie()}>Cynophilie</Link>
           </li>
           <li className={linkClassName}>
-            <Link href="#">Boutique</Link>
+            <Link href={routes().shop()}>Boutique</Link>
           </li>
           <li className={linkClassName}>
-            <Link href="#">Délégations et associations départementales</Link>
+            <Link href={routes().delegations()}>
+              Délégations et associations départementales
+            </Link>
           </li>
           <li className={linkClassName}>
-            <Link href="#">Divers et téléchargements</Link>
+            <Link href={routes().downloads()}>Divers et téléchargements</Link>
           </li>
           <li className={linkClassName}>
-            <Link href="#">Fonds de garantie</Link>
+            <Link href={routes().guarantee()}>Fonds de garantie</Link>
           </li>
           <li className={linkClassName}>
-            <Link href="#">GesChasse</Link>
+            <Link href={routes().geschasse()}>GesChasse</Link>
           </li>
           <li className={linkClassName}>
-            <Link href="#">Revue</Link>
+            <Link href={routes().newsPaper()}>Revue</Link>
           </li>
           <li className={linkClassName}>
             <Link href="#">Les stages UNUCR 2023</Link>
           </li>
           <li className={linkClassName}>
-            <Link href="#">Liens</Link>
+            <Link href={routes().links()}>Liens</Link>
           </li>
           <li className={linkClassName}>
             <Link href="#">Petites annonces</Link>
+          </li>
+          <li>
+            <Link href="#" className={linkClassName}>
+              A qui s&apos;adresser à l&apos;UNUCR ?
+            </Link>
           </li>
         </ul>
       </nav>

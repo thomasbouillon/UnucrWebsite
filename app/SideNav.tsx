@@ -25,62 +25,13 @@ export function SideNav() {
           </li>
           <li>
             <Link href="#" className="link">
-              Liste officielle des conducteurs agréés de l’UNUCR
-            </Link>
-          </li>
-          <li>
-            <Link href="#" className="link">
-              Liste des responsables départementaux
-            </Link>
-          </li>
-          <li>
-            <Link href="#" className="link">
-              Les archives du JAB
-            </Link>
-          </li>
-          <li>
-            <Link href="#" className="link">
-              Découvez la recherche au sang au travers des articles du JAB
-            </Link>
-          </li>
-          <li>
-            <Link href="#" className="link">
-              Envoyer un article
-            </Link>
-          </li>
-          <li>
-            <Link href="#" className="link">
-              A qui s&apos;adresser à l&apos;UNUCR ?
+              Liste officielle des conducteurs agréés de l&apos;UNUCR
             </Link>
           </li>
           <li>
             <Link href="#" className="link">
               Le calendrier des épreuves 2023
             </Link>
-          </li>
-          <li className="space-y-2">
-            <Link href="#" className="link">
-              Boutique
-            </Link>
-            <Image
-              className="mx-auto"
-              src="/boutique.png"
-              width={200}
-              height={280}
-              alt="Aperçu de la boutique"
-            />
-          </li>
-          <li className="space-y-2">
-            <Link href="#" className="link">
-              Geschasse V2
-            </Link>
-            <Image
-              className="mx-auto"
-              src="/geschasse.jpeg"
-              width={200}
-              height={344}
-              alt="Aperçu de la boutique"
-            />
           </li>
         </ul>
       </nav>

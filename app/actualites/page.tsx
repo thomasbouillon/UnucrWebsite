@@ -75,7 +75,8 @@ export default function Page() {
 
       <div className="space-y-8 mt-8">
         <Link className="link" href="#">
-          L'ACUFA communique : redevance GARMIN français, souscrivez en ligne !
+          L&apos;ACUFA communique : redevance GARMIN français, souscrivez en
+          ligne !
         </Link>
 
         <Link className="link" href="#">

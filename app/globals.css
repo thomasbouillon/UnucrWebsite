@@ -6,4 +6,8 @@
   .link {
     @apply block text-primary-100 font-bold underline underline-offset-4 decoration-gray-400;
   }
+
+  .inline-link {
+    @apply text-primary-100 font-bold underline underline-offset-4 decoration-gray-400;
+  }
 }
