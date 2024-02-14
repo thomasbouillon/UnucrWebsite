@@ -9,10 +9,11 @@ export function SideNav() {
         aria-label="Raccourcis"
         className="h-full bg-light-100 px-4 py-8 font-serif"
       >
-        <ul className="flex flex-col max-w-52 gap-4">
+        <p className="text-center mb-4 md:hidden">Accès rapides</p>
+        <ul className="md:flex md:flex-col md:max-w-52 gap-4 grid sm:grid-cols-3 grid-cols-2">
           <li className="space-y-2">
             <Link href={routes().home()} className="link">
-              Adhérer à l'UNUCR
+              Adhérer à l&apos;UNUCR
             </Link>
             <Image
               className="mx-auto"

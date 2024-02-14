@@ -16,7 +16,7 @@ export function Header() {
         UNUCR
       </h1>
       <p className="text-primary-100 font-serif font-bold text-center italic">
-        Union Nationale pour l'Utilisation de Chiens de Rouge
+        Union Nationale pour l&apos;Utilisation de Chiens de Rouge
       </p>
       <nav className="max-w-4xl mx-auto mt-8">
         <ul className="text-center">

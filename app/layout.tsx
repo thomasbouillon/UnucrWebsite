@@ -19,7 +19,7 @@ export default function RootLayout({
     <html lang="en">
       <body className="min-h-[100svh] flex flex-col">
         <Header />
-        <div className="flex-grow grid grid-cols-[auto,1fr]">
+        <div className="flex-grow grid md:grid-cols-[auto,65ch] mx-auto">
           <SideNav />
           <main className="p-4 pb-8">{children}</main>
         </div>
