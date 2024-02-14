@@ -35,11 +35,6 @@ export function SideNav() {
           </li>
           <li>
             <Link href="#" className="link">
-              Stages UNUCR 2023
-            </Link>
-          </li>
-          <li>
-            <Link href="#" className="link">
               Les archives du JAB
             </Link>
           </li>
