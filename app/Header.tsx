@@ -24,7 +24,7 @@ export function Header() {
             <Link href={routes().home()}>Accueil</Link>
           </li>
           <li className={linkClassName}>
-            <Link href="#">Actualités</Link>
+            <Link href={routes().news()}>Actualités</Link>
           </li>
           <li className={linkClassName}>
             <Link href="#">Conducteurs</Link>
