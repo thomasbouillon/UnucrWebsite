@@ -3,6 +3,8 @@ export default function routes() {
     home: () => "/",
     news: () => "/actualites",
     hunters: () => "/conducteurs",
+    newOrUpdateHunter: () =>
+      "/conducteurs/devenir-conducteur-ou-demande-agreement",
     cynophilie: () => "/cynophilie",
     shop: () => "/boutique",
     delegations: () => "/delegations-et-assocations-departementales",

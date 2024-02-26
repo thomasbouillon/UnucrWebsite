@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { FileLink } from "../FileLink";
 
 export default function Page() {
   return (
@@ -74,15 +75,18 @@ export default function Page() {
       </article>
 
       <div className="space-y-8 mt-8">
-        <Link className="link" href="#">
+        <Link className="link" href="http://www.acufa.fr/">
           L&apos;ACUFA communique : redevance GARMIN français, souscrivez en
           ligne !
         </Link>
 
-        <Link className="link" href="#">
+        <FileLink
+          className="link"
+          filePath="actualites/14-10-2013-nouvelle-legislation.pdf"
+        >
           Nouvelle législation sur les armes (Fiches pédagogiques - Origine
           Comité Guillaume TELL)
-        </Link>
+        </FileLink>
       </div>
     </div>
   );

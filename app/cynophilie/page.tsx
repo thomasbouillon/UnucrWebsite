@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { FileLink } from "../FileLink";
 
 export default function Page() {
   return (
@@ -14,49 +15,73 @@ export default function Page() {
       />
 
       <div className="space-y-8 mt-8">
-        <Link className="link" href="#">
+        <FileLink className="link" filePath="calendrier-epreuves.pdf">
           Calendrier des épreuves UNUCR 2024
-        </Link>
+        </FileLink>
 
-        <Link className="link" href="#">
+        <FileLink
+          className="link"
+          filePath="cynophilie/cr-epreuve-unucr-recto.pdf"
+        >
           Compte-rendu Epreuve UNUCR Recto
-        </Link>
+        </FileLink>
 
-        <Link className="link" href="#">
+        <FileLink
+          className="link"
+          filePath="cynophilie/cr-epreuve-unucr-verso.pdf"
+        >
           Compte-rendu Epreuve UNUCR Verso
-        </Link>
+        </FileLink>
 
-        <Link className="link" href="#">
+        <FileLink
+          className="link"
+          filePath="cynophilie/engagement-epreuve-unucr.pdf"
+        >
           Engagement épreuve UNUCR - SCC
-        </Link>
+        </FileLink>
 
-        <Link className="link" href="#">
+        <FileLink
+          className="link"
+          filePath="cynophilie/feuille-de-juge-recto.pdf"
+        >
           Feuilles de juge recherche au sang
-        </Link>
+        </FileLink>
 
-        <Link className="link" href="#">
+        <FileLink
+          className="link"
+          filePath="cynophilie/feuille-de-juge-verso.pdf"
+        >
           Dos feuille de juge recherche au sang
-        </Link>
+        </FileLink>
 
-        <Link className="link" href="#">
+        <FileLink
+          className="link"
+          filePath="cynophilie/demande-d-indemnite-epreuve.pdf"
+        >
           Demande indemnités épreuve
-        </Link>
+        </FileLink>
 
-        <Link className="link" href="#">
+        <FileLink
+          className="link"
+          filePath="cynophilie/reglement-multi-races.pdf"
+        >
           Règlement Multiraces
-        </Link>
+        </FileLink>
 
-        <Link className="link" href="#">
+        <FileLink className="link" filePath="cynophilie/carnet-chasse.pdf">
           Carnet CHASSE
-        </Link>
+        </FileLink>
 
-        <Link className="link" href="#">
+        <FileLink
+          className="link"
+          filePath="cynophilie/carnet-chasse-non-lof.pdf"
+        >
           Carnet CHASSE NON LOF
-        </Link>
+        </FileLink>
 
-        <Link className="link" href="#">
+        <FileLink className="link" filePath="cynophilie/carnet-teckels.pdf">
           Carnet Teckels
-        </Link>
+        </FileLink>
       </div>
     </div>
   );

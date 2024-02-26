@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { FileLink } from "../FileLink";
 
 export default function Page() {
   return (
@@ -38,31 +39,44 @@ export default function Page() {
           vos statistiques.
           <br className="mb-2" />
           Cliquez sur{" "}
-          <Link href="#" className="inline-link">
+          <FileLink
+            filePath="geschasse/mode-d-emploi.pdf"
+            className="inline-link"
+          >
             ce lien
-          </Link>{" "}
+          </FileLink>{" "}
           pour télécharger le mode d&apos;emploi du nouveau Geschasse (v2).
           <br className="mb-2" />
-          <Link href="#" className="inline-link" target="_blank">
+          <FileLink
+            filePath="geschasse/faire-ses-statistiques.pdf"
+            className="inline-link"
+            target="_blank"
+          >
             Faire ses statistiques
-          </Link>{" "}
+          </FileLink>{" "}
           avec le nouveau Geschasse (v2)
           <br className="mb-2" />
           Pour tout renseignement s&apos;adresser à Nicolas Bouillon.
         </p>
 
         <p>
-          <Link className="inline-link" href="#">
+          <FileLink
+            className="inline-link"
+            filePath="geschasse/fiche-statistiques.xslx"
+          >
             Fiche statistiques Excel
-          </Link>{" "}
+          </FileLink>{" "}
           (pour usage uniquement départemental. Cette fiche ne dispense pas de
           l&apos;obligation d&apos;envoyer son rapport statistique Geschasse)
         </p>
 
         <p>
-          <Link className="inline-link" href="#">
+          <FileLink
+            className="inline-link"
+            filePath="geschasse/fiche-statistiques.pdf"
+          >
             Fiche statistiques PDF
-          </Link>{" "}
+          </FileLink>{" "}
           (pour usage uniquement départemental. Cette fiche ne dispense pas de
           l&apos;obligation d&apos;envoyer son rapport statistique Geschasse)
         </p>

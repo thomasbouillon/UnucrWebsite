@@ -1,5 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
+import { FileLink } from "./FileLink";
+import routes from "./routes";
 
 export default function Home() {
   return (
@@ -9,27 +11,30 @@ export default function Home() {
       </h2>
 
       <div className="space-y-2">
-        <Link className="link" href="#">
+        <Link className="link" href={routes().newOrUpdateHunter()}>
           Devenir Conducteur ou faire sa demande d&apos;agrément
         </Link>
-        <Link className="link" href="#">
+        <FileLink className="link" filePath="stages.pdf">
           Les stages 2024
-        </Link>
-        <Link className="link" href="#">
+        </FileLink>
+        <FileLink className="link" filePath="calendrier-epreuves.pdf">
           Le calendrier des épreuves 2024
-        </Link>
+        </FileLink>
       </div>
 
-      <Link className="link" href="#">
+      <FileLink className="link" filePath="organigramme-unucr.pdf">
         Le nouveau conseil d&apos;administration (7 juillet 2021)
-      </Link>
+      </FileLink>
 
-      <Link className="link" href="#">
+      <FileLink className="link" filePath="resultats-elections-unucr.pdf">
         Résultat des élections au conseil d&apos;administration du 20 juin 2021
-      </Link>
+      </FileLink>
 
       <div>
-        <Link className="link" href="#">
+        <Link
+          className="link"
+          href="https://www.unucr.fr/jusquau-bout-la-revue-de/quelques-anciens-articles/ou-en-est-la-recherche-en.pdf"
+        >
           Où en est la recherche, en 2017, dans nos départements
         </Link>
         <p>Une étude détaillée de la recherche UNUCR, en France.</p>

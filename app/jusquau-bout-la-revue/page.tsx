@@ -22,7 +22,7 @@ export default function Page() {
           </Link>{" "}
           Retrouvez une sélection d&apos;articles déjà publiés.
         </p>
-        <Link className="link" href="#">
+        <Link className="link" href="mailto:cpc.unucr@gmail.com">
           Envoyer un article ou contacter la rédaction
         </Link>
       </div>

@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { FileLink } from "../FileLink";
 
 export default function Page() {
   return (
@@ -16,19 +17,25 @@ export default function Page() {
       />
 
       <div className="space-y-8 mt-8">
-        <Link className="link" href="#">
+        <FileLink
+          className="link"
+          filePath="fonds-de-garantie/statuts-fonds-de-garantie.pdf"
+        >
           Statuts du fonds de garantie
-        </Link>
+        </FileLink>
 
         <p>
-          <Link className="inline-link" href="#">
+          <FileLink
+            className="inline-link"
+            filePath="fonds-de-garantie/formulaire-de-declaration.pdf"
+          >
             Déclaration d&apos;accident de chien
-          </Link>{" "}
+          </FileLink>{" "}
           (à adresser à Cyrille Piccot-Crézollet)
         </p>
 
         <p>
-          <Link className="inline-link" href="#">
+          <Link className="inline-link" href="mailto:cpc.unucr@gmail.com">
             Contacter le responsable du fonds de garantie
           </Link>{" "}
           (réservé aux délégués, présidents UDUCR et conducteurs UNUCR)

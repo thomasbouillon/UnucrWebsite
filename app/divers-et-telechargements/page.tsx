@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { FileLink } from "../FileLink";
 
 export default function Page() {
   return (
@@ -9,30 +10,39 @@ export default function Page() {
       </h2>
 
       <div className="space-y-8 mt-8">
-        <Link className="link" href="#">
+        <FileLink className="link" filePath="divers/statuts-et-ri-unucr.pdf">
           Statuts et Règlement Intérieur
-        </Link>
+        </FileLink>
 
-        <Link className="link" href="#">
+        <FileLink
+          className="link"
+          filePath="divers/modele_fiche_gibier_blesse.pdf"
+        >
           Fiche gibier blessé
-        </Link>
+        </FileLink>
 
-        <Link className="link" href="#">
+        <FileLink className="link" filePath="#">
           Triptyque UNUCR
-        </Link>
+        </FileLink>
 
         <p>
-          <Link className="inline-link" href="#">
+          <FileLink
+            className="inline-link"
+            filePath="geschasse/fiche-statistiques.xslx"
+          >
             Fiche statistiques Excel
-          </Link>{" "}
+          </FileLink>{" "}
           (pour usage uniquement départemental. Cette fiche ne dispense pas de
           l&apos;obligation d&apos;envoyer son rapport statistique Geschasse)
         </p>
 
         <p>
-          <Link className="inline-link" href="#">
+          <FileLink
+            className="inline-link"
+            filePath="geschasse/fiche-statistiques.pdf"
+          >
             Fiche statistiques PDF
-          </Link>{" "}
+          </FileLink>{" "}
           (pour usage uniquement départemental. Cette fiche ne dispense pas de
           l&apos;obligation d&apos;envoyer son rapport statistique Geschasse)
         </p>

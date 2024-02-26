@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { FileLink } from "../FileLink";
 
 export default function Page() {
   return (
@@ -16,31 +17,49 @@ export default function Page() {
       />
 
       <div className="space-y-8 mt-8">
-        <Link className="link" href="#">
+        <FileLink
+          className="link"
+          filePath="delegations-et-associations-dep/liste-des-delegues-ar.pdf"
+        >
           Coordonnées des délégués départementaux et Présidents UDUCR au
           07/09/2022
-        </Link>
+        </FileLink>
 
-        <Link className="link" href="#">
-          Contrat du délégué départemental (v2016)
-        </Link>
+        <FileLink
+          className="link"
+          filePath="delegations-et-associations-dep/contrat-du-delegue-departemental.pdf"
+        >
+          Contrat du délégué départemental
+        </FileLink>
 
-        <Link className="link" href="#">
-          Contrat d&apos;association affiliée (v2016)
-        </Link>
+        <FileLink
+          className="link"
+          filePath="delegations-et-associations-dep/contrat-d-association-affiliee.pdf"
+        >
+          Contrat d&apos;association affiliée
+        </FileLink>
 
-        <Link className="link" href="#">
+        <FileLink
+          className="link"
+          filePath="delegations-et-associations-dep/bilan-activites-dep.doc"
+        >
           Bilan des activités hors recherche (*.doc)
-        </Link>
+        </FileLink>
 
-        <Link className="link" href="#">
+        <FileLink
+          className="link"
+          filePath="delegations-et-associations-dep/bilan-activites-dep.pdf"
+        >
           Bilan des activités hors recherche (*.pdf)
-        </Link>
+        </FileLink>
 
-        <Link className="link" href="#">
+        <FileLink
+          className="link"
+          filePath="delegations-et-associations-dep/comptabilite-delegation.xls"
+        >
           Comptabilité délégation compte et caisse en numéraire 2016 (reservé au
           DD UNUCR)
-        </Link>
+        </FileLink>
       </div>
     </div>
   );

@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { FileLink } from "../FileLink";
 
 export default function Page() {
   return (
@@ -15,11 +16,11 @@ export default function Page() {
       />
 
       <div className="space-y-8 mt-8">
-        <Link className="link" href="#">
+        <FileLink className="link" filePath="boutique/boutique-unucr.pdf">
           Articles de la boutique et bon de commande
-        </Link>
+        </FileLink>
 
-        <Link className="link" href="#">
+        <Link className="link" href="mailto:ph-leguyader29@orange.fr">
           Contacter la responsable boutique
         </Link>
       </div>

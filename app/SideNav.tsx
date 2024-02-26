@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import routes from "./routes";
+import { FileLink } from "./FileLink";
 
 export function SideNav() {
   return (
@@ -12,9 +13,9 @@ export function SideNav() {
         <p className="text-center mb-4 md:hidden">Accès rapides</p>
         <ul className="md:flex md:flex-col md:max-w-52 gap-4 grid sm:grid-cols-3 grid-cols-2">
           <li className="space-y-2">
-            <Link href={routes().home()} className="link">
+            <FileLink filePath="conducteurs/adherer.pdf" className="link">
               Adhérer à l&apos;UNUCR
-            </Link>
+            </FileLink>
             <Image
               className="mx-auto"
               src="/logo.jpg"
@@ -24,14 +25,17 @@ export function SideNav() {
             />
           </li>
           <li>
-            <Link href="#" className="link">
+            <FileLink
+              filePath="conducteurs/liste-des-conducteurs-agrees.pdf"
+              className="link"
+            >
               Liste officielle des conducteurs agréés de l&apos;UNUCR
-            </Link>
+            </FileLink>
           </li>
           <li>
-            <Link href="#" className="link">
+            <FileLink filePath="calendrier-epreuves.pdf" className="link">
               Le calendrier des épreuves 2023
-            </Link>
+            </FileLink>
           </li>
         </ul>
       </nav>
