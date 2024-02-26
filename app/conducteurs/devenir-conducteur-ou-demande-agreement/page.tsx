@@ -10,9 +10,10 @@ export default function Page() {
           Devenir conducteur de chien de rouge
         </h3>
         <p>
-          N'est pas conducteur agréé qui veut. Un chien ayant fait
-          occasionnellement une recherche sur un animal blessé n'est pas un
-          chien de rouge, et son propriétaire n'est pas encore un conducteur.
+          N&apos;est pas conducteur agréé qui veut. Un chien ayant fait
+          occasionnellement une recherche sur un animal blessé n&apos;est pas un
+          chien de rouge, et son propriétaire n&apos;est pas encore un
+          conducteur.
           <br className="mb-2" />
           Pour devenir un conducteur opérationnel et performant il faut savoir
           que cela demande un investissement personnel fort pour être disponible
@@ -21,7 +22,7 @@ export default function Page() {
           <br className="mb-2" />
           Pour devenir conducteur agréé de l&apos;Union Nationale pour
           l&apos;Utilisation de Chiens de Rouge (UNUCR), il faut respecter les
-          conditions définies dans le contrat d'agrément du conducteur.
+          conditions définies dans le contrat d&apos;agrément du conducteur.
           <br className="mb-2" />
           Et notamment :
           <br className="mb-2" />
@@ -41,7 +42,7 @@ export default function Page() {
       </section>
       <section>
         <h3 className="text-primary-100 text-xl mb-4 font-bold font-serif">
-          Faire sa demande d'agrément
+          Faire sa demande d&apos;agrément
         </h3>
         <p>
           Vous avez effectué le stage UNUCR et réussi une épreuve de recherche
@@ -97,8 +98,8 @@ export default function Page() {
           départemental qui transmettra à Joël Roux, administrateur en charge de
           ces dossiers.
           <br className="mb-2" />
-          En l'absence de responsable départemental le dossier est à transmettre
-          directement à Joël Roux par voie postale ou par mail.
+          En l&apos;absence de responsable départemental le dossier est à
+          transmettre directement à Joël Roux par voie postale ou par mail.
           <br className="mb-2" />
           Joël Roux
           <br />

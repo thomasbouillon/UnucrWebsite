@@ -20,3 +20,5 @@ export const FileLink = forwardRef<HTMLAnchorElement, Props>(
     </Link>
   )
 );
+
+FileLink.displayName = "FileLink";
