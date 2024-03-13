@@ -17,11 +17,27 @@ export default function Page() {
       />
 
       <div className="space-y-8 mt-8">
+        <p>
+          Par esprit de solidarité entre conducteurs, l&apos;UNUCR a mis en
+          place un fonds de garantie pour venir en aide aux conducteurs dont les
+          chiens sont accidentés en cours de recherche au sang.
+          <br className="mt-2" />
+          Le dossier à compléter et la personne en charge sont indiqués
+          ci-dessous.
+        </p>
+
         <FileLink
           className="link"
           filePath="fonds-de-garantie/statuts-fonds-de-garantie.pdf"
         >
           Statuts du fonds de garantie
+        </FileLink>
+
+        <FileLink
+          className="link"
+          filePath="fonds-de-garantie/conditions-de-remboursement.pdf"
+        >
+          Conditions de remboursement pour l&apos;année en cours
         </FileLink>
 
         <p>

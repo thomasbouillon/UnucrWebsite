@@ -33,6 +33,9 @@ export function Header() {
             <Link href={routes().cynophilie()}>Cynophilie</Link>
           </li>
           <li className={linkClassName}>
+            <Link href={routes().newsPaper()}>Revue</Link>
+          </li>
+          <li className={linkClassName}>
             <Link href={routes().shop()}>Boutique</Link>
           </li>
           <li className={linkClassName}>
@@ -41,30 +44,16 @@ export function Header() {
             </Link>
           </li>
           <li className={linkClassName}>
-            <Link href={routes().downloads()}>Divers et téléchargements</Link>
-          </li>
-          <li className={linkClassName}>
             <Link href={routes().guarantee()}>Fonds de garantie</Link>
           </li>
           <li className={linkClassName}>
             <Link href={routes().geschasse()}>GesChasse</Link>
           </li>
           <li className={linkClassName}>
-            <Link href={routes().newsPaper()}>Revue</Link>
-          </li>
-          <li className={linkClassName}>
-            <Link href="#">Les stages UNUCR 2023</Link>
+            <Link href={routes().downloads()}>Divers et téléchargements</Link>
           </li>
           <li className={linkClassName}>
             <Link href={routes().links()}>Liens</Link>
-          </li>
-          <li className={linkClassName}>
-            <Link href="#">Petites annonces</Link>
-          </li>
-          <li>
-            <Link href="#" className={linkClassName}>
-              A qui s&apos;adresser à l&apos;UNUCR ?
-            </Link>
           </li>
         </ul>
       </nav>

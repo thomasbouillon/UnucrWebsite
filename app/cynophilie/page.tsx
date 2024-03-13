@@ -15,8 +15,27 @@ export default function Page() {
       />
 
       <div className="space-y-8 mt-8">
+        <p>
+          Devenir conducteur, c&apos;est d&apos;abord former un chien à la
+          recherche au sang. Celui-ci pourra être non-LOF en tant que premier
+          chien, mais devra obligatoirement être inscrit au LOF dans les autres
+          cas.
+          <br className="mb-2" />
+          Vous trouverez dans les liens rapides de la colonne de gauche le
+          calendrier des épreuves pour l&apos;année en cours, et ci-dessous
+          divers documents nécessaires. N&apos;hésitez pas à consulter le
+          règlement qui ordonnance nos épreuves.
+        </p>
+
+        <FileLink
+          className="link"
+          filePath="cynophilie/reglement-multi-races.pdf"
+        >
+          Règlement Multiraces
+        </FileLink>
+
         <FileLink className="link" filePath="calendrier-epreuves.pdf">
-          Calendrier des épreuves UNUCR 2024
+          Calendrier des épreuves UNUCR
         </FileLink>
 
         <FileLink
@@ -59,13 +78,6 @@ export default function Page() {
           filePath="cynophilie/demande-d-indemnite-epreuve.pdf"
         >
           Demande indemnités épreuve
-        </FileLink>
-
-        <FileLink
-          className="link"
-          filePath="cynophilie/reglement-multi-races.pdf"
-        >
-          Règlement Multiraces
         </FileLink>
 
         <FileLink className="link" filePath="cynophilie/carnet-chasse.pdf">

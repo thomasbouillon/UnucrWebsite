@@ -22,14 +22,6 @@ export default function Home() {
         </FileLink>
       </div>
 
-      <FileLink className="link" filePath="organigramme-unucr.pdf">
-        Le nouveau conseil d&apos;administration (7 juillet 2021)
-      </FileLink>
-
-      <FileLink className="link" filePath="resultats-elections-unucr.pdf">
-        Résultat des élections au conseil d&apos;administration du 20 juin 2021
-      </FileLink>
-
       <div>
         <Link
           className="link"

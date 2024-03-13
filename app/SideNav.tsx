@@ -33,8 +33,13 @@ export function SideNav() {
             </FileLink>
           </li>
           <li>
+            <FileLink filePath="stages.pdf" className="link">
+              Programme des stages
+            </FileLink>
+          </li>
+          <li>
             <FileLink filePath="calendrier-epreuves.pdf" className="link">
-              Le calendrier des épreuves 2023
+              Programme des épreuves
             </FileLink>
           </li>
         </ul>

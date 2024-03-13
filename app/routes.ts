@@ -14,6 +14,5 @@ export default function routes() {
     newsPaper: () => "/jusquau-bout-la-revue",
     schedules: () => "/stages-unucr",
     links: () => "/liens",
-    ads: () => "/petites-annonces",
   };
 }

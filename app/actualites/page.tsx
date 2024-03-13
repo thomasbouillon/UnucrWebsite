@@ -46,6 +46,17 @@ export default function Page() {
       </article>
 
       <article className="mt-8">
+        <FileLink className="link" filePath="organigramme-unucr.pdf">
+          Le nouveau conseil d&apos;administration (7 juillet 2021)
+        </FileLink>
+
+        <FileLink className="link" filePath="resultats-elections-unucr.pdf">
+          Résultat des élections au conseil d&apos;administration du 20 juin
+          2021
+        </FileLink>
+      </article>
+
+      <article className="mt-8">
         <h3 className="text-primary-100 font-serif font-bold mb-4">
           Communiqué
         </h3>
