@@ -147,7 +147,14 @@ export default function Page() {
         >
           FD Conseil
         </Link>
-        <Link href="https://difac.fr/accueil.asp">Difac</Link>
+        <Link
+          className="link text-black"
+          target="_blank"
+          style={{ fontSize: "1em" }}
+          href="https://difac.fr/accueil.asp"
+        >
+          Difac
+        </Link>
       </section>
       <section className="space-y-4">
         <h3 className="text-primary-100 font-serif font-bold mb-4">

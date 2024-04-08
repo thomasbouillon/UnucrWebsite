@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { FileLink } from "../FileLink";
+import Image from "next/image";
 
 export default function Page() {
   return (
@@ -99,6 +100,14 @@ export default function Page() {
           Comité Guillaume TELL)
         </FileLink>
       </div>
+
+      <Image
+        src="/actualites/image.jpg"
+        alt="Jeune homme avec un chien de rouge dans les bras"
+        width={700}
+        height={525}
+        className="mx-auto mt-6"
+      />
     </div>
   );
 }

@@ -64,7 +64,7 @@ export default function Page() {
           ces dossiers.
           <br className="mb-2" />
           En l&apos;absence de responsable départemental le dossier est à
-          transmettre directement à Joël Roux par voie postale ou par mail.
+          transmettre directement à Marie Doyen par voie postale ou par mail.
           <br className="mb-2" />
           Marie DOYEN
           <br />

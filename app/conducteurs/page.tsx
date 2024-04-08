@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { FileLink } from "../FileLink";
 import routes from "../routes";
+import Image from "next/image";
 
 export default function Page() {
   return (
@@ -8,11 +9,14 @@ export default function Page() {
       <h2 className="p-4 bg-secondary-100 rounded-lg mb-8">Conducteurs</h2>
 
       <div className="space-y-8">
+        <h3 className="text-primary-100 font-serif font-bold mb-4">
+          Devenir conducteur de chien de rouge
+        </h3>
         <div>
-          Devenir conducteur de chien de rouge N&apos;est pas conducteur agréé
-          qui veut. Un chien ayant fait occasionnellement une recherche sur un
-          animal blessé n&apos;est pas un chien de rouge, et son propriétaire
-          n&apos;est pas encore un conducteur.
+          N&apos;est pas conducteur agréé qui veut. Un chien ayant fait
+          occasionnellement une recherche sur un animal blessé n&apos;est pas un
+          chien de rouge, et son propriétaire n&apos;est pas encore un
+          conducteur.
           <br className="mb-2" />
           Pour devenir un conducteur opérationnel et performant il faut savoir
           que cela demande un investissement personnel fort pour être disponible
@@ -61,6 +65,14 @@ export default function Page() {
           Code d&apos;honneur du conducteur agréé par l&apos;UNUCR
         </FileLink>
       </div>
+
+      <Image
+        src="/conducteurs/image.jpg"
+        alt="Image d'une chien de rouge en action"
+        width={700}
+        height={933}
+        className="mx-auto mt-6"
+      />
     </div>
   );
 }

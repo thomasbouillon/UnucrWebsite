@@ -70,13 +70,22 @@ export default function Home() {
         a, depuis sa création, formé un grand nombre d&apos;équipes
         conducteur-chien opérationnelles pour la recherche du grand gibier
         blessé.
-        <Image
-          src="/home/home_img_1.jpeg"
-          alt="Chien de rouge à côté d'un sanglier"
-          width={510}
-          height={382}
-          className="mx-auto mt-6"
-        />
+        <div className="grid sm:grid-cols-2">
+          <Image
+            src="/home/image.jpeg"
+            alt="Chien de rouge à côté d'un sanglier"
+            width={752}
+            height={954}
+            className="mx-auto mt-6"
+          />
+          <Image
+            src="/home/image2.jpg"
+            alt="Image d'une chien de rouge en action"
+            width={700}
+            height={933}
+            className="mx-auto mt-6"
+          />
+        </div>
       </article>
     </div>
   );
