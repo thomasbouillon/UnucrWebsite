@@ -10,18 +10,6 @@ export default function Home() {
         La recherche au sang
       </h2>
 
-      <div className="space-y-2">
-        <Link className="link" href={routes().newOrUpdateHunter()}>
-          Devenir Conducteur ou faire sa demande d&apos;agrément
-        </Link>
-        <FileLink className="link" filePath="stages.pdf">
-          Les stages 2024
-        </FileLink>
-        <FileLink className="link" filePath="calendrier-epreuves.pdf">
-          Le calendrier des épreuves 2024
-        </FileLink>
-      </div>
-
       <div>
         <Link
           className="link"
