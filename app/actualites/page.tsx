@@ -4,10 +4,20 @@ import Image from "next/image";
 
 export default function Page() {
   return (
-    <div>
-      <h2 className="p-4 bg-secondary-100 rounded-lg mb-8">Actualités</h2>
+    <div className="space-y-8">
+      <h2 className="p-4 bg-secondary-100 rounded-lg">Actualités</h2>
 
-      <article className="mt-8">
+      <div>
+        <Link
+          className="link"
+          href="https://www.unucr.fr/jusquau-bout-la-revue-de/quelques-anciens-articles/ou-en-est-la-recherche-en.pdf"
+        >
+          Où en est la recherche, en 2017, dans nos départements
+        </Link>
+        <p>Une étude détaillée de la recherche UNUCR, en France.</p>
+      </div>
+
+      <article>
         <h3 className="text-primary-100 font-serif font-bold mb-4">
           L&apos;UNUCR vient d&apos;être reconnue d&apos;intérêt général par
           l&apos;administration !
@@ -46,7 +56,7 @@ export default function Page() {
         </p>
       </article>
 
-      <article className="mt-8">
+      <article>
         <FileLink className="link" filePath="organigramme-unucr.pdf">
           Le nouveau conseil d&apos;administration (7 juillet 2021)
         </FileLink>
@@ -57,7 +67,7 @@ export default function Page() {
         </FileLink>
       </article>
 
-      <article className="mt-8">
+      <article>
         <h3 className="text-primary-100 font-serif font-bold mb-4">
           Communiqué
         </h3>
@@ -86,20 +96,18 @@ export default function Page() {
         </p>
       </article>
 
-      <div className="space-y-8 mt-8">
-        <Link className="link" href="http://www.acufa.fr/">
-          L&apos;ACUFA communique : redevance GARMIN français, souscrivez en
-          ligne !
-        </Link>
+      <Link className="link" href="http://www.acufa.fr/">
+        L&apos;ACUFA communique : redevance GARMIN français, souscrivez en ligne
+        !
+      </Link>
 
-        <FileLink
-          className="link"
-          filePath="actualites/14-10-2013-nouvelle-legislation.pdf"
-        >
-          Nouvelle législation sur les armes (Fiches pédagogiques - Origine
-          Comité Guillaume TELL)
-        </FileLink>
-      </div>
+      <FileLink
+        className="link"
+        filePath="actualites/14-10-2013-nouvelle-legislation.pdf"
+      >
+        Nouvelle législation sur les armes (Fiches pédagogiques - Origine Comité
+        Guillaume TELL)
+      </FileLink>
 
       <Image
         src="/actualites/image.jpg"

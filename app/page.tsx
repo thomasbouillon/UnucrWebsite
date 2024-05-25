@@ -1,7 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import { FileLink } from "./FileLink";
-import routes from "./routes";
 
 export default function Home() {
   return (
@@ -9,16 +7,6 @@ export default function Home() {
       <h2 className="p-4 bg-secondary-100 rounded-lg mb-8">
         La recherche au sang
       </h2>
-
-      <div>
-        <Link
-          className="link"
-          href="https://www.unucr.fr/jusquau-bout-la-revue-de/quelques-anciens-articles/ou-en-est-la-recherche-en.pdf"
-        >
-          Où en est la recherche, en 2017, dans nos départements
-        </Link>
-        <p>Une étude détaillée de la recherche UNUCR, en France.</p>
-      </div>
 
       <article>
         <h3 className="text-primary-100 font-serif font-bold mb-4">
