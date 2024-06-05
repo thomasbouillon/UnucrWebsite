@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 import { FileLink } from "../FileLink";
 
 export default function Page() {
@@ -21,8 +20,7 @@ export default function Page() {
           className="link"
           filePath="delegations-et-associations-dep/liste-des-delegues-ar.pdf"
         >
-          Coordonnées des délégués départementaux et Présidents UDUCR au
-          07/09/2022
+          Coordonnées des délégués départementaux et Présidents UDUCR
         </FileLink>
 
         <FileLink
@@ -57,8 +55,8 @@ export default function Page() {
           className="link"
           filePath="delegations-et-associations-dep/comptabilite-delegation.xls"
         >
-          Comptabilité délégation compte et caisse en numéraire 2016 (reservé au
-          DD UNUCR)
+          Comptabilité délégation compte et caisse en numéraire (reservé au DD
+          UNUCR)
         </FileLink>
       </div>
     </div>
