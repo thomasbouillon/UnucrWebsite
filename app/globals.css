@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 @layer components {
+  .btn-secondary {
+    @apply text-primary-100 bg-secondary-100 px-4 py-2 font-bold bg-opacity-70;
+  }
+
   .link {
     @apply block text-primary-100 font-bold underline underline-offset-4 decoration-gray-400;
   }

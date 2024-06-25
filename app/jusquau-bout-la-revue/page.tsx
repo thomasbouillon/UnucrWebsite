@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import routes from "../routes";
 
 export default function Page() {
   return (
@@ -17,7 +18,7 @@ export default function Page() {
 
       <div className="space-y-8 my-8">
         <p>
-          <Link className="inline-link" href="#">
+          <Link className="inline-link" href={routes().newsPaper().archives()}>
             Les archives du JAB.
           </Link>{" "}
           Retrouvez une sélection d&apos;articles déjà publiés.

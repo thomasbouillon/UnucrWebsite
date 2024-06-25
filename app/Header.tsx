@@ -33,7 +33,7 @@ export function Header() {
             <Link href={routes().cynophilie()}>Cynophilie</Link>
           </li>
           <li className={linkClassName}>
-            <Link href={routes().newsPaper()}>Revue</Link>
+            <Link href={routes().newsPaper().index()}>Revue</Link>
           </li>
           <li className={linkClassName}>
             <Link href={routes().shop()}>Boutique</Link>

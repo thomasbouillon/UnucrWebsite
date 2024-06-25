@@ -11,7 +11,10 @@ export default function routes() {
     downloads: () => "/divers-et-telechargements",
     guarantee: () => "/fonds-de-garantie",
     geschasse: () => "/geschasse",
-    newsPaper: () => "/jusquau-bout-la-revue",
+    newsPaper: () => ({
+      index: () => "/jusquau-bout-la-revue",
+      archives: () => "/jusquau-bout-la-revue/archives",
+    }),
     schedules: () => "/stages-unucr",
     links: () => "/liens",
   };
