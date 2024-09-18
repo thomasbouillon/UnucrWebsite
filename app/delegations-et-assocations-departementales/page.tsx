@@ -25,6 +25,13 @@ export default function Page() {
 
         <FileLink
           className="link"
+          filePath="delegations-et-associations-dep/coordinateurs-regionaux.jpg"
+        >
+          Coordinateurs régionaux
+        </FileLink>
+
+        <FileLink
+          className="link"
           filePath="delegations-et-associations-dep/contrat-du-delegue-departemental.pdf"
         >
           Contrat du délégué départemental

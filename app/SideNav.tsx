@@ -42,6 +42,11 @@ export function SideNav() {
               Programme des épreuves
             </FileLink>
           </li>
+          <li>
+            <FileLink filePath="organigramme.pdf" className="link">
+              A qui s&apos;adresser ?
+            </FileLink>
+          </li>
         </ul>
       </nav>
     </aside>

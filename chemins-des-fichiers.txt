@@ -1,6 +1,7 @@
 actualites/14-10-2013-nouvelle-legislation.pdf
-boutique/boutique-unucr.pdf
 calendrier-epreuves.pdf
+organigramme.pdf
+boutique/boutique-unucr.pdf
 conducteurs/adherer.pdf
 conducteurs/code-dhonneur.pdf
 conducteurs/contrat-de-parrainage.pdf
@@ -23,6 +24,7 @@ delegations-et-associations-dep/bilan-activites-dep.pdf
 delegations-et-associations-dep/comptabilite-delegation.xls
 delegations-et-associations-dep/contrat-d-association-affiliee.pdf
 delegations-et-associations-dep/contrat-du-delegue-departemental.pdf
+delegations-et-associations-dep/coordinateurs-regionaux.jpg
 delegations-et-associations-dep/liste-des-delegues-ar.pdf
 divers/modele_fiche_gibier_blesse.pdf
 divers/statuts-et-ri-unucr.pdf
