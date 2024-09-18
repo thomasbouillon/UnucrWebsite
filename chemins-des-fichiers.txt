@@ -4,10 +4,9 @@ organigramme.pdf
 boutique/boutique-unucr.pdf
 conducteurs/adherer.pdf
 conducteurs/code-dhonneur.pdf
-conducteurs/contrat-de-parrainage.pdf
 conducteurs/demande-de-mise-a-jour-conducteurs-et-chiens.pdf
-conducteurs/devenir-conduteur/demande-de-retour.pdf
-conducteurs/devenir-conduteur/demande-dinscription-initiale.pdf
+conducteurs/demande-de-retour.pdf
+conducteurs/demande-dinscription-initiale.pdf
 conducteurs/liste-des-conducteurs-agrees.pdf
 cynophilie/carnet-chasse-non-lof.pdf
 cynophilie/carnet-chasse.pdf
@@ -28,7 +27,7 @@ delegations-et-associations-dep/coordinateurs-regionaux.jpg
 delegations-et-associations-dep/liste-des-delegues-ar.pdf
 divers/modele_fiche_gibier_blesse.pdf
 divers/statuts-et-ri-unucr.pdf
-fonds-de-garantie/conditions-de-remboursement.pdf
+fonds-de-garantie/conditions-de-remboursement.pdfc
 fonds-de-garantie/formulaire-de-declaration.pdf
 fonds-de-garantie/statuts-fonds-de-garantie.pdf
 geschasse/faire-ses-statistiques.pdf

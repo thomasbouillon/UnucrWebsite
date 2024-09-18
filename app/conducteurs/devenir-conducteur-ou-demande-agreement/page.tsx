@@ -21,7 +21,7 @@ export default function Page() {
                 <li className="list-disc">
                   <FileLink
                     className="link"
-                    filePath="conducteurs/devenir-conduteur/demande-dinscription-initiale.pdf"
+                    filePath="conducteurs/demande-dinscription-initiale.pdf"
                   >
                     Demande d&apos;inscription initiale sur la liste des
                     conducteurs agréés
@@ -31,7 +31,7 @@ export default function Page() {
                 <li>
                   <FileLink
                     className="link"
-                    filePath="conducteurs/devenir-conduteur/demande-de-retour.pdf"
+                    filePath="conducteurs/demande-de-retour.pdf"
                   >
                     Demande de retour sur la liste des conducteurs agréés
                   </FileLink>

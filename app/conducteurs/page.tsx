@@ -54,13 +54,6 @@ export default function Page() {
           (à adresser à Frédéric Bernard)
         </FileLink>
 
-        <FileLink
-          className="link"
-          filePath="conducteurs/contrat-de-parrainage.pdf"
-        >
-          Contrat de parrainage
-        </FileLink>
-
         <FileLink className="link" filePath="conducteurs/code-dhonneur.pdf">
           Code d&apos;honneur du conducteur agréé par l&apos;UNUCR
         </FileLink>
