@@ -19,16 +19,16 @@ export default function Page() {
 
       <article>
         <h3 className="text-primary-100 font-serif font-bold mb-4">
-          L&apos;UNUCR vient d&apos;être reconnue d&apos;intérêt général par
-          l&apos;administration !
+          L&apos;UNUCR reconnue d&apos;intérêt général par l&apos;administration
+          !
         </h3>
         <p className="space-y-2">
-          Lors du Gamefair, le samedi 18 juin à 14h avait lieu l&apos;assemblée
-          générale de l&apos;UNUCR
+          Lors du Gamefair, le samedi 18 juin 2022 à 14h avait lieu
+          l&apos;assemblée générale de l&apos;UNUCR
           <br className="mb-2" />
           Ce fut pour nous l&apos;occasion d&apos;annoncer une grande nouvelle
           qui devrait dynamiser encore d&apos;avantage l&apos;association :
-          l&apos;UNUCR vient d&apos;être reconnue d&apos;intérêt général par
+          l&apos;UNUCR venant d&apos;être reconnue d&apos;intérêt général par
           l&apos;administration !
           <br className="mb-2" />
           Nous avons été reconnus désintéressés, exerçant à titre non lucratif
@@ -58,12 +58,11 @@ export default function Page() {
 
       <article>
         <FileLink className="link" filePath="organigramme-unucr.pdf">
-          Le nouveau conseil d&apos;administration (7 juillet 2021)
+          Le nouveau conseil d&apos;administration
         </FileLink>
 
         <FileLink className="link" filePath="resultats-elections-unucr.pdf">
-          Résultat des élections au conseil d&apos;administration du 20 juin
-          2021
+          Résultat des élections au conseil d&apos;administration
         </FileLink>
       </article>
 

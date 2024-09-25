@@ -25,7 +25,7 @@ export default function Page() {
           href="http://www.chien.com/clubdesamateursdeteckels/"
           target="_blank"
         >
-          Club du Teckel
+          Club des Amateurs de Teckels
         </Link>
         <Link
           className="link text-black"

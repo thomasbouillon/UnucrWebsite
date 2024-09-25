@@ -59,12 +59,14 @@ export default function Page() {
             </li>
             <li>La photocopie de l&apos;attestation de stage UNUCR</li>
           </ul>
+          <br className="mb-2" />
           L&apos;ensemble des documents est à transmettre à votre responsable
-          départemental qui transmettra à Joël Roux, administrateur en charge de
-          ces dossiers.
+          départemental qui transmettra à Marie SCHRICKE DOYEN, administratrice
+          en charge de ces dossiers.
           <br className="mb-2" />
           En l&apos;absence de responsable départemental le dossier est à
-          transmettre directement à Marie Doyen par voie postale ou par mail.
+          transmettre directement à Marie SCHRICKE DOYEN par voie postale ou par
+          mail.
           <br className="mb-2" />
           Marie DOYEN
           <br />
