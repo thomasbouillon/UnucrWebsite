@@ -68,7 +68,7 @@ export default function Page() {
           transmettre directement à Marie SCHRICKE DOYEN par voie postale ou par
           mail.
           <br className="mb-2" />
-          Marie DOYEN
+          Marie SCHRICKE DOYEN
           <br />
           19 rue du Colombier
           <br />

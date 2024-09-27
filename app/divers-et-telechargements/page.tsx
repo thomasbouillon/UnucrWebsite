@@ -21,7 +21,7 @@ export default function Page() {
           Fiche gibier blessé
         </FileLink>
 
-        <FileLink className="link" filePath="#">
+        <FileLink className="link" filePath="divers/tryptique-unucr.pdf">
           Triptyque UNUCR
         </FileLink>
 

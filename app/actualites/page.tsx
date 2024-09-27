@@ -23,34 +23,23 @@ export default function Page() {
           !
         </h3>
         <p className="space-y-2">
-          Lors du Gamefair, le samedi 18 juin 2022 à 14h avait lieu
-          l&apos;assemblée générale de l&apos;UNUCR
-          <br className="mb-2" />
-          Ce fut pour nous l&apos;occasion d&apos;annoncer une grande nouvelle
-          qui devrait dynamiser encore d&apos;avantage l&apos;association :
-          l&apos;UNUCR venant d&apos;être reconnue d&apos;intérêt général par
-          l&apos;administration !
+          Le 09 juin 2022, l&#39;UNUCR a été reconnue d&#39;intérêt général par
+          l&#39;administration.
           <br className="mb-2" />
           Nous avons été reconnus désintéressés, exerçant à titre non lucratif
-          (bénévole) et d&apos;intérêt général.
+          (bénévole) et d&#39;intérêt général. Sur un plan éthique si
+          c&#39;était indiscutable et indiscuté au sein du monde cynégétique,
+          c&#39;est maintenant officiellement reconnu par l&#39;administration,
+          et notamment l&#39;administration fiscale.
           <br className="mb-2" />
-          Sur un plan éthique si c&apos;était indiscutable et indiscuté au sein
-          du monde cynégétique, c&apos;est maintenant officiellement reconnu par
-          l&apos;administration, et notamment l&apos;administration fiscale
-          <br className="mb-2" />
-          Pour nos bénévoles justement cela va induire une déduction partielle
-          des kilomètres parcourus sur leur feuille d&apos;impôt, pour nos
-          adhérents et nos donateurs idem sur le montant des dons et des
+          Pour nos bénévoles éligibles justement, cela va induire une déduction
+          partielle des kilomètres parcourus sur leur feuille d&#39;impôt, pour
+          nos adhérents et nos donateurs idem sur le montant des dons et des
           adhésions avec une déduction à 66% !
           <br className="mb-2" />
-          Tout cela va se formaliser concrètement pour la saison à venir, et par
-          les temps qui courrent ça va être apprécié des intéressés. Nous
-          communiquerons en interne pour les modalités.
-          <br className="mb-2" />
-          Un énorme merci à Cyrille PICCOT CREZOLLET (74), administrateur élu en
-          juillet dernier et dont la profession de foi intégrait ce but à
-          atteindre qu&apos;était l&apos;obtention de la reconnaissance
-          d&apos;intérêt général.
+          Un énorme merci à Cyrille PICCOT CREZOLLET (74), vice-président de
+          l’UNUCR, qui a plus que contribué à l’obtention de cette
+          reconnaissance officielle.
           <br className="mb-2" />
           Nicolas BOUILLON
         </p>
@@ -95,7 +84,7 @@ export default function Page() {
         </p>
       </article>
 
-      <Link className="link" href="http://www.acufa.fr/">
+      <Link className="link" href="http://www.acufa.fr/" target="_blank">
         L&apos;ACUFA communique : redevance GARMIN français, souscrivez en ligne
         !
       </Link>

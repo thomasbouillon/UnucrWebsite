@@ -94,6 +94,20 @@ export default function Page() {
         <FileLink className="link" filePath="cynophilie/carnet-teckels.pdf">
           Carnet Teckels
         </FileLink>
+
+        <FileLink
+          className="link"
+          filePath="cynophilie/demande-licence-proprietaire.pdf"
+        >
+          Demande de licence propriétaire
+        </FileLink>
+
+        <FileLink
+          className="link"
+          filePath="cynophilie/demande-licence-conducteur.pdf"
+        >
+          Demande de licence conducteur
+        </FileLink>
       </div>
     </div>
   );

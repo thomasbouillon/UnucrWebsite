@@ -36,7 +36,7 @@ export default function Page() {
         </Link>
         <Link
           className="link text-black"
-          href="http://club-des-chiens-courants-de-l-europe-de-l-est.fr/"
+          href="https://www.centrale-canine.fr/club-des-chiens-courants-de-l-europe-de-l-est"
           target="_blank"
         >
           Club des Chiens Courants de l&apos;Europe de l&apos;Est
@@ -55,7 +55,7 @@ export default function Page() {
         </Link>
         <Link
           className="link text-black"
-          href="http://www.oncfs.gouv.fr/"
+          href="https://www.ofb.gouv.fr/"
           target="_blank"
         >
           OFB ( Office Français de la Biodiversité)
@@ -114,7 +114,7 @@ export default function Page() {
         </h3>
         <Link
           className="link text-black"
-          href="http://www.uducr51.com/"
+          href="https://uducr51.wixsite.com/recherche-au-sang"
           target="_blank"
         >
           UDUCR 51
@@ -133,27 +133,65 @@ export default function Page() {
         </h3>
         <Link
           className="link text-black"
+          href="https://www.francital.com"
+          target="_blank"
+          style={{ fontSize: "1em" }}
+        >
+          Francital
+        </Link>
+
+        <Link
+          className="link text-black"
           href="http://www.benierassurances.com/"
           target="_blank"
           style={{ fontSize: "1em" }}
         >
           Benier assurances
         </Link>
+
         <Link
           className="link text-black"
-          href="http://www.fdconseileninvestissement.fr/"
+          href="https://www.clcassurances.com"
           target="_blank"
           style={{ fontSize: "1em" }}
         >
-          FD Conseil
+          CLC INTERNATIONAL ASSURANCES DIOT SIACI
         </Link>
+
         <Link
           className="link text-black"
+          href="http://www.kolab.team"
           target="_blank"
           style={{ fontSize: "1em" }}
-          href="https://difac.fr/accueil.asp"
         >
-          Difac
+          KOLAB
+        </Link>
+
+        <Link
+          className="link text-black"
+          href="https://www.numaxes.com"
+          target="_blank"
+          style={{ fontSize: "1em" }}
+        >
+          NUMAXES
+        </Link>
+
+        <Link
+          className="link text-black"
+          href="https://www.fpconcepts.fr"
+          target="_blank"
+          style={{ fontSize: "1em" }}
+        >
+          FP CONCEPTS
+        </Link>
+
+        <Link
+          className="link text-black"
+          href="https://www.geoviefinder.fr"
+          target="_blank"
+          style={{ fontSize: "1em" }}
+        >
+          GEOVIE
         </Link>
       </section>
       <section className="space-y-4">

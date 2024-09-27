@@ -25,9 +25,9 @@ export default function Page() {
 
         <FileLink
           className="link"
-          filePath="delegations-et-associations-dep/coordinateurs-regionaux.jpg"
+          filePath="delegations-et-associations-dep/coordinnateurs-regionaux.jpg"
         >
-          Coordinateurs régionaux
+          coordinnateurs régionaux
         </FileLink>
 
         <FileLink
