@@ -8,6 +8,7 @@ conducteurs/demande-de-mise-a-jour-conducteurs-et-chiens.pdf
 conducteurs/demande-de-retour.pdf
 conducteurs/demande-dinscription-initiale.pdf
 conducteurs/liste-des-conducteurs-agrees.pdf
+conducteurs/finalisation-demande-parrainage.pdf
 cynophilie/carnet-chasse-non-lof.pdf
 cynophilie/carnet-chasse.pdf
 cynophilie/carnet-teckels.pdf
@@ -25,7 +26,7 @@ delegations-et-associations-dep/bilan-activites-dep.pdf
 delegations-et-associations-dep/comptabilite-delegation.xls
 delegations-et-associations-dep/contrat-d-association-affiliee.pdf
 delegations-et-associations-dep/contrat-du-delegue-departemental.pdf
-delegations-et-associations-dep/coordinnateurs-regionaux.jpg
+delegations-et-associations-dep/coordonnateurs-regionaux.jpg
 delegations-et-associations-dep/liste-des-delegues-ar.pdf
 divers/modele_fiche_gibier_blesse.pdf
 divers/statuts-et-ri-unucr.pdf
@@ -35,7 +36,7 @@ fonds-de-garantie/formulaire-de-declaration.pdf
 fonds-de-garantie/statuts-fonds-de-garantie.pdf
 geschasse/faire-ses-statistiques.pdf
 geschasse/fiche-statistiques.pdf
-geschasse/fiche-statistiques.xslx
+geschasse/fiche-statistiques.xlsx
 geschasse/mode-d-emploi.pdf
 organigramme-unucr.pdf
 resultats-elections-unucr.pdf

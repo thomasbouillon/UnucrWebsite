@@ -102,7 +102,7 @@ export default function Page() {
         </Link>
         <Link
           className="link text-black"
-          href="http://www.abucs.be/"
+          href="http://www.abucs.org/"
           target="_blank"
         >
           ABUCS&nbsp;(Association Belge)

@@ -42,7 +42,7 @@ fonds-de-garantie/formulaire-de-declaration.pdf
 fonds-de-garantie/statuts-fonds-de-garantie.pdf
 geschasse/faire-ses-statistiques.pdf
 geschasse/fiche-statistiques.pdf
-geschasse/fiche-statistiques.xslx
+geschasse/fiche-statistiques.xlsx
 geschasse/mode-d-emploi.pdf
 organigramme-unucr.pdf
 resultats-elections-unucr.pdf

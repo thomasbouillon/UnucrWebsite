@@ -62,7 +62,7 @@ export default function Page() {
         <p>
           <FileLink
             className="inline-link"
-            filePath="geschasse/fiche-statistiques.xslx"
+            filePath="geschasse/fiche-statistiques.xlsx"
           >
             Fiche statistiques Excel
           </FileLink>{" "}

@@ -60,6 +60,17 @@ export default function Page() {
             <li>La photocopie de l&apos;attestation de stage UNUCR</li>
           </ul>
           <br className="mb-2" />
+          <strong>Finalisation du parrainage</strong>: en fin de saison, et
+          avant le 1er mars, le document de finalisation devra être renseigné à
+          son tour pour valider l&apos;agrément ou reconduire le parrainage une
+          saison de plus.
+          <FileLink
+            filePath="conducteurs/finalisation-demande-parrainage.pdf"
+            className="link"
+          >
+            Document finalisation parrainage
+          </FileLink>
+          <br className="mb-2" />
           L&apos;ensemble des documents est à transmettre à votre responsable
           départemental qui transmettra à Marie SCHRICKE DOYEN, administratrice
           en charge de ces dossiers.
